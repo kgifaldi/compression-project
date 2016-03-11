@@ -31,6 +31,10 @@ ________________________________________________________________________________
 
 	DevILL/OpenCV, still not sure which one is better, CV seems better documented though so I might try that:
 
+	http://stackoverflow.com/questions/15320267/package-opencv-was-not-found-in-the-pkg-config-search-path
+		Used this to fix something, not realy sure what but it helped
+	https://help.ubuntu.com/community/OpenCV
+		OpenCV Ubuntu installation and C++ loading an image file tutorial
 	http://opencv-srf.blogspot.com/2010/09/what-is-opencv.html
 		OpenCV Documentiaion/tutorial
 	http://www.geeks3d.com/20090105/tutorial-how-to-load-and-display-an-image-with-devil-and-opengl/
@@ -47,3 +51,7 @@ ________________________________________________________________________________
 	MISC NOTES:
 
 		-since we cannot see higher frequencies, any data dedicated to these higher frequencies can be removed.
+		-To compile using OpenCV (from https://help.ubuntu.com/community/OpenCV)
+		   1 $ g++ -ggdb `pkg-config --cflags opencv` -o `basename opencvtest.cpp .cpp` opencvtest.cpp `pkg-config --libs opencv`
+		   2 $ ./opencvtest
+		-I got OpenCV working for me, all I did was copy the progrm from https://help.ubuntu.com/community/OpenCV, I am going to work on how we can access each individual pixel's data now.
