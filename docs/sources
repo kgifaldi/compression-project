@@ -2,7 +2,7 @@ Research:
 
 	http://www.cs.dartmouth.edu/~mgm/Final%20Report.pdfy
 			
-____________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________
 
 	Computerphile JPEG 3 videos:
 
@@ -18,7 +18,7 @@ ________________________________________________________________________________
 		https://www.youtube.com/watch?v=Q2aEzeMDHMA
 			part 2: video on the use of the discrete cosine tranform in regards to JPEG image compression.
 
-_____________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________
 
 	http://www.ams.org/samplings/feature-column/fcarc-image-compression
 		Article outlines the step-by-step process that JPEG uses to compress images
@@ -27,10 +27,12 @@ ________________________________________________________________________________
 		Contains equations of the discrete cosine transform as well as the inverse discrete cosine transform on page 10. I've only looked at this briefly (and up to this part) but the equation for the DCT (discrete cosine transform) contains another equation (F(u, v), the DCT coefficient) which seems to be defined on the previous page, but the equation for F(u,v) contains the other equation.
 
 
-_______________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________
 
 	DevILL/OpenCV, still not sure which one is better, CV seems better documented though so I might try that:
 
+	http://stackoverflow.com/questions/13567336/how-to-access-the-rgb-values-in-opencv
+		This works to read the RGB data (the second one in the question).
 	http://stackoverflow.com/questions/15320267/package-opencv-was-not-found-in-the-pkg-config-search-path
 		Used this to fix something, not realy sure what but it helped
 	https://help.ubuntu.com/community/OpenCV
@@ -43,7 +45,7 @@ ________________________________________________________________________________
 		install DevIL
 
 
-_______________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________
 
 
 
